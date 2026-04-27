@@ -69,7 +69,7 @@
             img(src='@/assets/curso/tema1/img3.svg', style="width: 80px")          
           .flex-grow-1.text-center.text-lg-start
             h4.mb-2 Programas técnicos para la prevención sanitaria
-            p.mb-0 Se invita a leer el documento, donde se aborda los principales programas para anticipar la aparición de enfermedades, fallas productivas y riesgos sanitarios.
+            p.mb-0 Se invita a leer el documento, donde se abordan los principales programas para anticipar la aparición de enfermedades, fallas productivas y riesgos sanitarios.
           .mt-3.mt-lg-0.ps-lg-4            
             a.btn.btn-danger.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Lectura-Programas-técnicos-para-la-prevención-sanitaria.docx')" target="_blank")
               span.fw-bold.me-2 Descargar
@@ -83,9 +83,7 @@
             h4.mb-2 Proceso de la producción avícola
             p.mb-0 Como apoyo a este tema, se recomienda revisar el video “Proceso de la producción avícola”, en el cual informan las acciones preventivas en el proceso productivo. 
           .mt-3.mt-lg-0.ps-lg-4            
-            a.btn.btn-danger.w-buttons.d-flex.align-items-center.justify-content-center.p-3(href="https://www.youtube.com/watch?v=7ra1cKWHu1M&t=15s" target="_blank")             
-              span.fw-bold.me-2 Abrir web
-              i.fas.fa-link
+            
     .row.bg-color-1
       .col-12
         .p-5
@@ -136,7 +134,7 @@
                       img(src='@/assets/curso/tema1/pestana01_3.png')
                   .col-md-7
                     h4 Humedad relativa
-                    p Debe mantenerse entre 50% y 70%. Niveles altos favorecen enfermedades respiratorias y deterioro de la cama, mientras que niveles bajos generan polvo y problemas respiratorios.
+                    p Debe mantenerse entre 50 % y 70 %. Niveles altos favorecen enfermedades respiratorias y deterioro de la cama, mientras que niveles bajos generan polvo y problemas respiratorios.
               .py-3.py-md-4(titulo="Calidad del aire")
                 .row
                   .col-md-5.mb-4.mb-md-0
@@ -230,11 +228,11 @@
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta01_6.svg', style="max-width: 90px").mx-auto.mb-3                        
                         p.card-text.text-center
-                        | Registro de mortalidad y morbilidad
+                        | Registro de mortalidad y morbilidad.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta01_7.svg', style="max-width: 90px").mx-auto.mb-3                        
                         p.card-text.text-center
-                        | Verificación del funcionamiento de equipos
+                        | Verificación del funcionamiento de equipos.
           //- Fin Carrusel
           p(data-aos="fade-right") El seguimiento permite verificar la correcta ejecución de las actividades de manejo y el cumplimiento de protocolos, mediante auditorías e indicadores productivos. Además, el registro de la información garantiza trazabilidad y facilita la toma de decisiones.
           //- Título con imagen
@@ -543,7 +541,7 @@
                     .card-custom__side-icon
                       img(src="@/assets/curso/tema1/icono-tarjeta.svg")
                     .card-custom__content
-                      p.mb-0 Implementación de acciones
+                      p.mb-0 Implementación de acciones.
           p.mt-3(data-aos="fade-right") Prosiguiendo con el análisis, se presenta la lista de chequeo:
           //- Slideshow
           .bg-full-width.bg-fondo-slider.mb-3
@@ -592,7 +590,7 @@
             .col-md-10
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 4.
-                span  Acciones de control ambiental.
+                span  Acciones de control ambiental
               .tabla-a
                 table
                   thead
@@ -643,7 +641,7 @@
                 .practical-focus.p-4
                   h4.mb-3.text-center Enfoque práctico
                   .bg-white.p-3.rounded-3
-                    p.mb-1 Tipo flujo de acción:
+                    p.mb-1 Tipo de flujo de acción:
                     p.mb-0 Detectar problema → Registrar → Analizar causa → Aplicar acción → Verificar resultado → Ajustar manejo
               p.mb-0 El monitoreo ambiental es fundamental porque permite garantizar el bienestar animal, prevenir enfermedades, mejorar la productividad y reducir pérdidas económicas. Además, facilita el cumplimiento de la normatividad del ICA y la toma de decisiones basadas en datos, fortaleciendo la capacidad de control y verificación de las actividades de manejo para asegurar un proceso técnico, eficiente y sostenible.
     Separador
@@ -702,7 +700,7 @@
                         p.mb-0 Mejora el bienestar animal (menos estrés y agresividad).
                       li.d-flex
                         i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                        p.mb-0 Reduce la incidencia de enfermedades
+                        p.mb-0 Reduce la incidencia de enfermedades.
                       li.d-flex
                         i.fas.fa-check-circle.me-3(style="color:#AD9721")
                         p.mb-0 Optimiza el consumo de alimento y agua.
@@ -717,7 +715,7 @@
                         p.mb-0 Favorece la uniformidad del lote.
                       li.d-flex
                         i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                        p.mb-0 Facilita el manejo y control sanitario
+                        p.mb-0 Facilita el manejo y control sanitario.
     //- Fin Slideshow
     .row.justify-content-center.align-items-stretch.g-0.mb-5.mt-5.bg-color-7(data-aos="fade-left")
       .col-lg-1.d-flex.align-items-center.justify-content-center
@@ -855,8 +853,10 @@
                 figure.ps-md-5.mb-3
                   img(src="@/assets/curso/tema1/formula1.svg",  style="max-width: 370px")
                 p Conversión alimenticia (CA)
-                figure.ps-md-5
+                figure.ps-md-5.mb-3
                   img(src="@/assets/curso/tema1/formula2.svg", style="max-width: 250px")
+                p Ganancia de peso
+                p Ganancia de peso = Peso final-Peso incial.
             .row(numero="3" titulo="Interpretación de resultados")
               .col-md-12
                 p La interpretación de los parámetros productivos permite evaluar el sistema. Alta mortalidad indica problemas sanitarios; conversión alta, baja eficiencia; bajo peso, manejo inadecuado; y consumo bajo, posible estrés o enfermedad.
@@ -909,7 +909,7 @@
                     span.ms-2 Reporte a sistemas de trazabilidad. 
                   li.d-flex
                     i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    span.ms-2 Notificación a entidades si aplica.
+                    span.ms-2 Notificación a entidades, si aplica.
       //- Fin Accordion
     .row.bg-color-1
       .col-12
@@ -935,7 +935,7 @@
                         span.ms-2 Uso de elementos de protección personal (EPP).
                       li.d-flex
                         i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        span.ms-2 Lavado de manos. D
+                        span.ms-2 Lavado de manos.
                       li.d-flex
                         i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
                         span.ms-2 Desinfección constante.

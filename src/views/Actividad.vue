@@ -130,12 +130,12 @@ export default {
             {
               id: 'b',
               texto: 'Reducción del manejo de instalaciones.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'c',
               texto: 'Uso de elementos de protección personal.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'd',
@@ -358,7 +358,7 @@ export default {
         },
         {
           id: 12,
-          texto: 'Actividades opcionales sin control técnico.',
+          texto: '¿Qué es un protocolo en avicultura?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [

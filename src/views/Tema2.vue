@@ -52,7 +52,7 @@
     .row.mt-5
         #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.2 Protocolos: cumplimiento
-    p La verificación del cumplimiento de protocolos asegura la estandarización de los procesos productivos, reduciendo la variabilidad y garantizando resultados consistentes. En esta sección se analizarán los aspectos a evaluar y verificación de aplicación en campo.
+    p La verificación del cumplimiento de protocolos asegura la estandarización de los procesos productivos, reduciendo la variabilidad y garantizando resultados consistentes. En esta sección se analizarán los aspectos a evaluar y, verificación de aplicación en campo.
     //- Inicio Tarjetas
     .row.justify-content-center.g-0(data-aos="fade-right")
       .col-lg-6.col-md-6
@@ -113,7 +113,7 @@
       .col-lg-5.d-flex
         figure.mb-0.w-100
           img.h-100.w-100(src='@/assets/curso/tema2/img3.png', style="object-fit: cover;")
-    p.mt-5(data-aos="fade-left") En el presente apartado se examinará  los componentes de verificación y la evaluación de cumplimiento
+    p.mt-5(data-aos="fade-left") En el presente apartado se examinarán  los componentes de verificación y la evaluación de cumplimiento.
     //- Slideshow
     .bg-full-width.bg-fondo-slider.mb-3
       .p-4.p-md-5
@@ -158,13 +158,13 @@
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  span.ms-2 Cumple: se ejecuta correctamente.
+                  span.ms-2 <b>Cumple:</b> se ejecuta correctamente.
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  span.ms-2 Parcial: requiere mejora.
+                  span.ms-2 <b>Parcial:</b> requiere mejora.
                 li.d-flex
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                  span.ms-2 No cumple: incumplimiento total.                
+                  span.ms-2 <b>No cumple:</b> incumplimiento total.                
     //- Fin Slideshow
     .row.bg-color-1
       .col-12
@@ -437,7 +437,7 @@
     //- Inicio Tema2.10
     .row.mt-5
         #t_2_10.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 2.10 Contingencias: tipos y características
+          h2 2.10 Sistemas de bioseguridad
     p(data-aos="fade-left") El sistema de bioseguridad en la producción avícola es un conjunto de medidas preventivas, organizadas y obligatorias que buscan evitar la entrada y propagación de enfermedades en la granja. Su correcta implementación, mediante planes, controles, infraestructura adecuada y manejo de insumos y residuos, garantiza la sanidad, el bienestar animal, el cumplimiento normativo y la sostenibilidad del sistema productivo.
     //- Inicio Video
     figure.mb-5(data-aos="fade-down")

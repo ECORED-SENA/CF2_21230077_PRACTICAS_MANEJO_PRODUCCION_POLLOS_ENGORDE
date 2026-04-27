@@ -20,7 +20,7 @@
       .col-lg-7
         .row.align-items-start.mb-3.bg-color-3.p-3(data-aos="fade-left")
           .col-lg
-          p.mb-0 El curso tiene como objetivo fortalecer la capacidad de controlar el desarrollo de las actividades de manejo y verificar su correcta ejecución, de acuerdo con criterios técnicos establecidos. Asimismo, promueve la implementación de buenas prácticas avícolas, el cumplimiento de medidas de bioseguridad, el análisis de parámetros productivos y la toma de decisiones basadas en datos
+          p.mb-0 El curso tiene como objetivo fortalecer la capacidad de controlar el desarrollo de las actividades de manejo y verificar su correcta ejecución, de acuerdo con criterios técnicos establecidos. Asimismo, promueve la implementación de buenas prácticas avícolas, el cumplimiento de medidas de bioseguridad, el análisis de parámetros productivos y la toma de decisiones basadas en datos.
         .row.align-items-start.mb-10(data-aos="fade-left")  
           .col-lg-auto
             img.d-none.d-lg-flex(src="@/assets/curso/intro/icono.svg", style="max-width: 90px").mx-auto
