@@ -82,7 +82,10 @@
           .flex-grow-1.text-center.text-lg-start
             h4.mb-2 Proceso de la producción avícola
             p.mb-0 Como apoyo a este tema, se recomienda revisar el video “Proceso de la producción avícola”, en el cual informan las acciones preventivas en el proceso productivo. 
-          .mt-3.mt-lg-0.ps-lg-4            
+          .mt-3.mt-lg-0.ps-lg-4
+            a.btn.btn-danger.w-buttons.d-flex.align-items-center.justify-content-center.p-3(href="https://www.youtube.com/watch?v=7ra1cKWHu1M&t=15s" target="_blank")            
+              span.fw-bold.me-2 Abrir web
+              i.fas.fa-link     
             
     .row.bg-color-1
       .col-12
