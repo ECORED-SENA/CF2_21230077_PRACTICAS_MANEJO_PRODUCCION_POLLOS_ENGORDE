@@ -39,7 +39,7 @@
                   h5.mb-3.fw-bold Contingencias en la producción avícola: tipos y manejo
                   TarjetaAudio.color-primario(
                     texto="" 
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/componentes/audios/podcast.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")        
@@ -52,7 +52,7 @@
     .row.mt-5
         #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.2 Protocolos: cumplimiento
-    p La verificación del cumplimiento de protocolos asegura la estandarización de los procesos productivos, reduciendo la variabilidad y garantizando resultados consistentes. En esta sección se analizarán los aspectos a evaluar y, verificación de aplicación en campo.
+    p La verificación del cumplimiento de protocolos asegura la estandarización de los procesos productivos, reduciendo la variabilidad y garantizando resultados consistentes. En esta sección se analizarán los aspectos a evaluar y la verificación de aplicación en campo.
     //- Inicio Tarjetas
     .row.justify-content-center.g-0(data-aos="fade-right")
       .col-lg-6.col-md-6
