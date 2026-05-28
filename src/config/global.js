@@ -4,7 +4,7 @@ export default {
       'Control y verificación de las actividades de manejo en producción de pollo de engorde',
     Description:
       'El manejo en la producción de pollos de engorde integra prácticas técnicas de control, bioseguridad, bienestar animal y monitoreo ambiental para garantizar la sanidad, productividad y cumplimiento normativo, mediante la verificación constante de actividades y el análisis de parámetros productivos.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -337,8 +337,9 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Líder del Ecosistema',
-          centro: 'Centro Agroturístico- Regional Santander',
+          cargo:
+            'Profesional 06. <br>Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Olga Constanza Bermúdez Jaimes',

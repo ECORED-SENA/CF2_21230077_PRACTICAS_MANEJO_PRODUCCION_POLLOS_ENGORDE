@@ -21,7 +21,7 @@
     .row.justify-content-center.align-items-stretch.g-0.mb-5(data-aos="fade-left")
       .col-lg-1.d-flex.align-items-center.justify-content-center
         figure
-          img(src="@/assets/curso/tema1/img4.svg", data-aos="zoom-in", style="width: 80px").mx-auto
+          img.mb-3(src="@/assets/curso/tema1/img4.svg", data-aos="zoom-in", style="width: 80px").mx-auto
       .col-lg-11.mb-0.d-flex.align-items-center
         p.mb-0 Las contingencias son eventos inesperados que afectan el normal desarrollo del proceso productivo y requieren atención inmediata para evitar pérdidas económicas, sanitarias o productivas.
     p Mediante el siguiente pódcast se conocerán las contingencias que existen en las actividades de manejo.
@@ -210,7 +210,7 @@
     .row.mt-5
         #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.5 Evaluación de parámetros productivos
-    p(data-aos="fade-right") La evaluación de parámetros productivos permite analizar indicadores como mortalidad, consumo, peso y conversión alimenticia, con el fin de medir el desempeño del sistema y tomar decisiones oportunas para mejorar la eficiencia. Para el control y el análisis del desempeño productivo se debe tener en cuenta:
+    p(data-aos="fade-right") La evaluación de parámetros productivos permite analizar indicadores como mortalidad, consumo, peso y conversión alimenticia, con el fin de medir el desempeño del sistema y tomar decisiones oportunas para mejorar la eficiencia. Para el control y el análisis del desempeño productivo, se debe tener en cuenta:
     //- Inicio Accordion
     .bg--img_03.mt-5
       .row.justify-content-center
@@ -234,7 +234,7 @@
     .row.justify-content-center.align-items-stretch.g-0.mb-5(data-aos="fade-left")
       .col-lg-1.d-flex.align-items-center.justify-content-center
         figure
-          img(src="@/assets/curso/tema1/img4.svg", data-aos="zoom-in", style="width: 80px").mx-auto
+          img.mb-3(src="@/assets/curso/tema1/img4.svg", data-aos="zoom-in", style="width: 80px").mx-auto
       .col-lg-11.mb-0.d-flex.align-items-center
         p.mb-0 La Seguridad y Salud en el Trabajo en la verificación busca proteger al personal mediante el uso de medidas preventivas, garantizando condiciones seguras durante las actividades de control, inspección y manejo en granjas avícolas.
     p(data-aos="fade-right") A continuación, se detallan los elementos esenciales para realizar la verificación en torno a la seguridad y salud en el trabajo:
@@ -351,7 +351,7 @@
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-right")
         TabsC.color-acento-contenido.mt-1
           .py-3.py-md-4(titulo="Captura de aves")
-            .row
+            .row.align-items-center
               .col-md-5
                 figure
                   img(src='@/assets/curso/tema2/pestana01_1.png')
@@ -359,7 +359,7 @@
                 h4 Captura de aves
                 p Debe realizarse evitando estrés, golpes y lesiones, aplicando principios de bienestar animal.
           .py-3.py-md-4(titulo="Enjaulado o enguacalado")
-            .row
+            .row.align-items-center
               .col-md-5.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema2/pestana01_2.png')
@@ -367,7 +367,7 @@
                 h4 Enjaulado o enguacalado
                 p Las recomendaciones incluyen no sobrecargar a las aves, realizar una manipulación suave y evitar golpes, con el fin de garantizar su bienestar y prevenir lesiones durante el manejo.
           .py-3.py-md-4(titulo="Buenas prácticas de manipulación")
-            .row
+            .row.align-items-center
               .col-md-5.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema2/pestana01_3.png')
@@ -385,7 +385,7 @@
                     i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
                     span.ms-2 Reducir tiempos de manejo.
           .py-3.py-md-4(titulo="Manejo operativo")
-            .row
+            .row.align-items-center
               .col-md-5.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema2/pestana01_4.png')
@@ -454,7 +454,7 @@
             h4.mb-2 Plan de bioseguridad
             p.mb-0 Se invita a consultar el documento Plan de Bioseguridad, el cual presenta de manera estructurada las medidas, procedimientos y lineamientos necesarios para garantizar la prevención de riesgos y el adecuado manejo sanitario en los diferentes entornos.
           .mt-3.mt-lg-0.ps-lg-4            
-            a.btn.btn-danger.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Lectura-Plan-de-bioseguridad.docx')" target="_blank")
+            a.btn.btn-danger.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_Plan de bioseguridad_instruccional.pdf')" target="_blank")
               span.fw-bold.me-2 Descargar
               i.fas.fa-file-download
 

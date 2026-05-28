@@ -71,7 +71,7 @@
             h4.mb-2 Programas técnicos para la prevención sanitaria
             p.mb-0 Se invita a leer el documento, donde se abordan los principales programas para anticipar la aparición de enfermedades, fallas productivas y riesgos sanitarios.
           .mt-3.mt-lg-0.ps-lg-4            
-            a.btn.btn-danger.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Lectura-Programas-técnicos-para-la-prevención-sanitaria.docx')" target="_blank")
+            a.btn.btn-danger.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_Programas técnicos para la prevención sanitaria_instruccional.pdf')" target="_blank")
               span.fw-bold.me-2 Descargar
               i.fas.fa-file-download
     .row.justify-content-center.mb-4
@@ -107,7 +107,7 @@
           .row.justify-content-center.align-items-stretch.g-0.mb-5(data-aos="fade-left")
             .col-lg-1.d-flex.align-items-center.justify-content-center
               figure
-                img(src="@/assets/curso/tema1/img4.svg", data-aos="zoom-in", style="width: 80px").mx-auto
+                img.mb-3(src="@/assets/curso/tema1/img4.svg", data-aos="zoom-in", style="width: 80px").mx-auto
             .col-lg-11.mb-0.d-flex.align-items-center
               p.mb-0 El control ambiental consiste en la implementación de estrategias y prácticas que permitan regular las condiciones internas del galpón, garantizando el confort térmico y fisiológico de las aves.
           p(data-aos="fade-right") Entre las principales variables a controlar se encuentran:
@@ -115,7 +115,7 @@
         .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-right")
             TabsC.color-acento-contenido.mt-1
               .py-3.py-md-4(titulo="Temperatura")
-                .row
+                .row.align-items-center
                   .col-md-5
                     figure
                       img(src='@/assets/curso/tema1/pestana01_1.png')
@@ -123,7 +123,7 @@
                     h4 Temperatura
                     p Debe ajustarse según la edad de las aves. En pollitos recién nacidos se requieren temperaturas entre 32 °C y 34 °C, disminuyendo progresivamente hasta alcanzar entre 20 °C y 24 °C en etapas finales. Un manejo inadecuado puede generar estrés térmico, disminución del consumo y aumento de mortalidad.
               .py-3.py-md-4(titulo="Ventilación")
-                .row
+                .row.align-items-center
                   .col-md-5.mb-4.mb-md-0
                     figure
                       img(src='@/assets/curso/tema1/pestana01_2.png')
@@ -131,7 +131,7 @@
                     h4 Ventilación
                     p Es fundamental para el suministro de oxígeno y la eliminación de gases nocivos como amoníaco y dióxido de carbono. Puede ser natural o mecánica, y debe garantizar una adecuada renovación del aire sin generar corrientes directas sobre las aves.
               .py-3.py-md-4(titulo="Humedad relativa")
-                .row
+                .row.align-items-center
                   .col-md-5.mb-4.mb-md-0
                     figure
                       img(src='@/assets/curso/tema1/pestana01_3.png')
@@ -139,7 +139,7 @@
                     h4 Humedad relativa
                     p Debe mantenerse entre 50 % y 70 %. Niveles altos favorecen enfermedades respiratorias y deterioro de la cama, mientras que niveles bajos generan polvo y problemas respiratorios.
               .py-3.py-md-4(titulo="Calidad del aire")
-                .row
+                .row.align-items-center
                   .col-md-5.mb-4.mb-md-0
                     figure
                       img(src='@/assets/curso/tema1/pestana01_4.png')
@@ -147,7 +147,7 @@
                     h4 Calidad del aire
                     p Se debe controlar la concentración de gases, especialmente amoníaco (NH₃), que no debe superar 20 ppm. Altos niveles afectan el sistema respiratorio, el rendimiento productivo y el bienestar animal.
               .py-3.py-md-4(titulo="Iluminación")
-                .row
+                .row.align-items-center
                   .col-md-5.mb-4.mb-md-0
                     figure
                       img(src='@/assets/curso/tema1/pestana01_5.png')
@@ -155,7 +155,7 @@
                     h4 Iluminación
                     p Debe ser uniforme y controlada, con programas de luz que favorezcan el consumo de alimento, el crecimiento y el descanso de las aves. La intensidad y duración deben ajustarse según la etapa productiva.
               .py-3.py-md-4(titulo="Manejo de la cama")
-                .row
+                .row.align-items-center
                   .col-md-5.mb-4.mb-md-0
                     figure
                       img(src='@/assets/curso/tema1/pestana01_6.png')
@@ -163,7 +163,7 @@
                     h4 Manejo de la cama
                     p La cama debe mantenerse seca, suelta y libre de acumulación excesiva de humedad. Una mala calidad de cama genera lesiones, enfermedades y afecta el bienestar animal.
               .py-3.py-md-4(titulo="Densidad poblacional")
-                .row
+                .row.align-items-center
                   .col-md-5.mb-4.mb-md-0
                     figure
                       img(src='@/assets/curso/tema1/pestana01_6.png')
@@ -202,10 +202,10 @@
       .col-12
         .p-5
           //- Carrusel
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
@@ -308,7 +308,7 @@
           p.mb-5(data-aos="fade-left") A continuación, se presentan los principales parámetros ambientales que deben ser monitoreados en granjas de pollo de engorde:
           //- Inicio Tabla
           .row.justify-content-center(data-aos="fade-left")
-            .col-md-10
+            .col-md-auto
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 1.
                 span  Parámetros ambientales en producción avícola.
@@ -363,7 +363,7 @@
     p.mb-5(data-aos="fade-left") En la siguiente tabla, se presentan los parámetros ambientales de pollos de engorde.
     //- Inicio Tabla
     .row.justify-content-center(data-aos="fade-left")
-      .col-md-10
+      .col-md-auto
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 2.
           span  Cuadro Técnico de Parámetros Ambientales en Pollos de Engorde.
@@ -442,13 +442,13 @@
     .row.justify-content-center.align-items-stretch.g-0.mb-5(data-aos="fade-left")
       .col-lg-1.d-flex.align-items-center.justify-content-center
         figure
-          img(src="@/assets/curso/tema1/img4.svg", data-aos="zoom-in", style="width: 80px").mx-auto
+          img.mb-3(src="@/assets/curso/tema1/img4.svg", data-aos="zoom-in", style="width: 80px").mx-auto
       .col-lg-11.mb-0.d-flex.align-items-center
         p.mb-0 El monitoreo ambiental debe realizarse mediante métodos técnicos, observacionales y registros sistemáticos que permitan evaluar las condiciones del galpón en tiempo real.
     p(data-aos="fade-right") Los métodos de monitoreo ambiental se presentan en la siguiente tabla:
     //- Inicio Tabla
     .row.justify-content-center(data-aos="fade-left")
-      .col-md-10
+      .col-md-auto
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 3.
           span  Métodos de monitoreo ambiental
@@ -590,7 +590,7 @@
         .p-5
           //- Inicio Tabla
           .row.justify-content-center(data-aos="fade-left")
-            .col-md-10
+            .col-md-auto
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 4.
                 span  Acciones de control ambiental
@@ -655,7 +655,7 @@
     .row.justify-content-center.align-items-stretch.g-0.mb-5(data-aos="fade-left")
       .col-lg-1.d-flex.align-items-center.justify-content-center
         figure
-          img(src="@/assets/curso/tema1/img4.svg", data-aos="zoom-in", style="width: 80px").mx-auto
+          img.mb-3(src="@/assets/curso/tema1/img4.svg", data-aos="zoom-in", style="width: 80px").mx-auto
       .col-lg-11.mb-0.d-flex.align-items-center
         p.mb-0 La densidad en pollos de engorde influye en bienestar, sanidad y productividad. Su adecuado manejo garantiza espacio, confort y eficiencia, mientras que una densidad inadecuada genera estrés, enfermedades y pérdidas económicas.
     p(data-aos="fade-right") En esta sección se abordarán los criterios, rangos técnicos, ajustes, importancia y beneficios del manejo adecuado de la densidad de aves.
@@ -723,7 +723,7 @@
     .row.justify-content-center.align-items-stretch.g-0.mb-5.mt-5.bg-color-7(data-aos="fade-left")
       .col-lg-1.d-flex.align-items-center.justify-content-center
         figure
-          img(src="@/assets/curso/tema1/img5.svg", data-aos="zoom-in", style="width: 80px").mx-auto
+          img.mb-3(src="@/assets/curso/tema1/img5.svg", data-aos="zoom-in", style="width: 80px").mx-auto
       .col-lg-11.mb-0.d-flex.align-items-center
         p.mb-0 Una densidad adecuada favorece el bienestar animal, el acceso a recursos y el confort de las aves. Además, permite cumplir la normatividad, facilita la comercialización y fortalece la toma de decisiones para un manejo eficiente.
     Separador
@@ -745,7 +745,7 @@
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-right")
         TabsC.color-acento-contenido.mt-1
           .py-3.py-md-4(titulo="Verificación del comportamiento")
-            .row
+            .row.align-items-center
               .col-md-5
                 figure
                   img(src='@/assets/curso/tema1/pestana02_1.png')
@@ -754,7 +754,7 @@
                 p La verificación del comportamiento se basa en la observación de la distribución, actividad y consumo de las aves para identificar su estado sanitario y ambiental.
                 p Indicadores como agrupamiento, jadeo o baja actividad permiten detectar problemas. Este proceso incluye observación, análisis, detección de desviaciones y reporte.
           .py-3.py-md-4(titulo="Evaluación del estado sanitario")
-            .row
+            .row.align-items-center
               .col-md-5.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema1/pestana02_2.png')
@@ -763,7 +763,7 @@
                 p La evaluación sanitaria permite determinar la salud del lote mediante observación clínica, análisis de registros y monitoreo de indicadores productivos como mortalidad, consumo, ganancia de peso y conversión alimenticia.
                 p Signos como secreciones, diarrea, cojeras o pérdida de apetito alertan problemas. El proceso incluye observación, registro, análisis, diagnóstico e intervención.
           .py-3.py-md-4(titulo="Acciones de intervención")
-            .row
+            .row.align-items-center
               .col-md-5.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema1/pestana02_3.png')
@@ -853,11 +853,21 @@
               .col-md-12
                 p A continuación, los principales cálculos:
                 p Mortalidad (%)
-                figure.ps-md-5.mb-3
-                  img(src="@/assets/curso/tema1/formula1.svg",  style="max-width: 370px")
+                  .formula-container.my-4
+                    .formula-flex.bg-color-13.p-4
+                      span.formula-label Mortality rate (%) = 
+                      .fraction
+                        span.numerator Número de aves muertas
+                        span.denominator Número inicial de aves
+                      span.multiplier  x 100     
                 p Conversión alimenticia (CA)
-                figure.ps-md-5.mb-3
-                  img(src="@/assets/curso/tema1/formula2.svg", style="max-width: 250px")
+                  .formula-container.my-4
+                      .formula-flex.bg-color-13.p-4
+                        span.formula-label CA = 
+                        .fraction
+                          span.numerator Alimento consumido (kg)
+                          span.denominator Peso ganado (kg)
+                        span.multiplier  x 100     
                 p Ganancia de peso
                 p Ganancia de peso = Peso final-Peso incial.
             .row(numero="3" titulo="Interpretación de resultados")
@@ -950,13 +960,13 @@
                     ul.lista-ul.mb-0
                       li.d-flex
                         i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        span.ms-2 Inspección de instalaciones 
+                        span.ms-2 Inspección de instalaciones.
                       li.d-flex
                         i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        span.ms-2 Verificación de equipos 
+                        span.ms-2 Verificación de equipos. 
                       li.d-flex
                         i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        span.ms-2 Control del ambiente laboral 
+                        span.ms-2 Control del ambiente laboral. 
                       li.d-flex
                         i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
                         span.ms-2 Evaluación del cumplimiento de normas.
@@ -965,14 +975,15 @@
                     ul.lista-ul.mb-0
                       li.d-flex
                         i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        span.ms-2 Decreto 1072 de 2015 
+                        span.ms-2 Decreto 1072 de 2015.
                       li.d-flex
                         i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                        span.ms-2 Resoluciones del ICA 
+                        span.ms-2 Resoluciones del ICA.
                       li.d-flex
                         i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
                         span.ms-2 Normativa del Ministerio de Trabajo.                      
             //- Fin Accordion
+         
 </template>
 
 <script>
