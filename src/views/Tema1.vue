@@ -868,7 +868,7 @@
                           span.denominator Peso ganado (kg)
                         span.multiplier  x 100     
                 p Ganancia de peso
-                p Ganancia de peso = Peso final-Peso incial.
+                p.text-center Ganancia de peso = Peso final - Peso incial
             .row(numero="3" titulo="Interpretación de resultados")
               .col-md-12
                 p La interpretación de los parámetros productivos permite evaluar el sistema. Alta mortalidad indica problemas sanitarios; conversión alta, baja eficiencia; bajo peso, manejo inadecuado; y consumo bajo, posible estrés o enfermedad.
